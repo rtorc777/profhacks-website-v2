@@ -1,12 +1,14 @@
 .container {
-    position: relative;
-    border-radius: 15px;
-    padding: 73px;
-    margin-top: 129px;
-    z-index: 1;
-    margin-left: 8%;
-    margin-right: 8%;
-  }
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.575);
+  border-radius: 15px;
+  padding: 73px;
+  margin-top: 129px;
+  z-index: 1;
+  margin-left: 8%;
+  margin-right: 8%;
+  text-align: center;
+}
 
 .title {
     color: var(--color-text);
@@ -17,9 +19,37 @@
     text-align: center;
     text-decoration: underline;
   }
+
+  .content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .aboutItem h3 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  .aboutImage {
+    width: 35%;
+    z-index: 1;
+    margin-bottom: 61px;
+  }
   
   @media screen and (max-width: 830px) {
     .title {
       font-size: 25px;
+    }
+
+    .container {
+      padding: 12px;
+    }
+    .content {
+      flex-direction: column;
+    }
+
+    .aboutImage {
+      width: 100%;
     }
   }
