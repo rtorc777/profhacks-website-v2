@@ -5,7 +5,7 @@ import Table from 'react-bootstrap/Table';
 
 export const Schedule = () => {
   return (
-    <section className={styles.container} id="about">
+    <section className={styles.container} id="schedule">
       <h2 className={styles.title}>-Schedule-</h2>
 
         <div className={styles.aboutItem}>

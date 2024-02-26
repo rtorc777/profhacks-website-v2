@@ -16,9 +16,9 @@ export const About = () => {
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
             <div className={styles.aboutItemText}>
-              <h3>What is Profhacks?</h3>
+              <h3>What is ProfHacks?</h3>
               <p>
-              Profhacks is the largest annual event held by the Rowan IEEE Student Branch! 
+              ProfHacks is the largest annual event held by the Rowan IEEE Student Branch! 
               It is a 24-hour Hackathon where you can create innovative hardware and software solutions to solve real world problems. 
               For 2024, the theme is <b>"Island Hack"</b>, so be prepared for different island-based events and activites. 
               Go solo or with a team and follow the theme, or just build whatever your heart desires! There are a variety of different activities you can do including:

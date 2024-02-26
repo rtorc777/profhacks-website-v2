@@ -18,6 +18,8 @@ function App() {
       <Sponsors />
       <FAQ />
       <Pictures />
+      <br></br>
+      <center><h4>ProfHacks 2024</h4></center>
     </div>
   );
 }
