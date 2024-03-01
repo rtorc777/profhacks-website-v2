@@ -19,6 +19,12 @@ export const Sponsors = () => {
           alt="island"
           className={styles.aboutImage}
         /></a>
+        <a href="https://www.redbull.com/us-en/" target="_blank">
+        <img
+          src={getImageUrl("sponsors/redbull.png")}
+          alt="island"
+          className={styles.aboutImage}
+        /></a>
     </section>
   )
 }
